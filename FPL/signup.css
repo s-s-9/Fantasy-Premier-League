@@ -1,0 +1,825 @@
+* {
+	border: 0px solid red;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	font-family: tahoma;
+}
+#bigwrapper{
+	max-width: 100%;
+}
+#fixedstuffs{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#header{
+	height: 18%;
+	width: 100%;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+}
+#logoplace{
+	width: 8%;
+	height: 100%;
+}
+#logoplace img{
+	width: 100%;
+	height: 100%;
+}
+#besidelogo{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+}
+#clubsites{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+	
+}
+#clubsitescontentwrapper{	
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 0;
+	padding-left: 40px;
+}
+#clubsiteslekha{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 0;
+	font-size: 12px;
+}
+#clubsiteslinks{
+	padding: 0px 20px 0px 10px;
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+}
+#clubsiteslinks a{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;	
+}
+#clubsiteslinks img{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	height: 28px;
+	width: 10px;
+	padding: 0px 15px 0px 15px;
+}
+#clubsiteslinks a:hover{
+	transition: transform 0.5s;
+	transform: scale(1.5);
+}
+#navigationdiv{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: left;
+	-webkit-box-flex: 1;
+}
+#navigation{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+}
+#navcanvas{
+	display: -webkit-box;
+	width: 1.5%;
+	-webkit-box-flex: 0; 
+}
+#navybluemenu{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+	background: rgb(56, 0, 60);
+	padding-right: 40%;
+	padding-left: 2%;
+}
+#navybluemenu ul{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+}
+#navybluemenu a{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+	list-style: none;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+#navybluemenu li{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+}
+#pastebox{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1.5;
+	height: 35%;
+	background: #00FF87;
+}
+#pasteboxlekhawithtabs{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	
+}
+#fpllekha{
+	padding: 7% 0px 0px 20%;
+	font: bold 40px Premier League;
+	color: rgb(56, 0, 60);
+}
+#easports{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: horizontal;
+	padding: 1% 0px 0px 20%;
+	font: normal 10px Premier League;
+	color: rgb(56, 0, 60);
+}
+#broughttoyouby{
+	padding: 3% 0px 0px 0px;
+}
+#easports img{
+	height: 40px;
+	width: 40px;
+	padding: 0px 0px 0% 20%;
+}
+#pastetabs{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+	padding: 0px 10% 0px 20%;
+	margin-top: 5%;
+}
+#pastetabs a{
+	text-decoration: none;
+}
+.ptabs{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: center;
+	background: #02894E;
+	color: white;
+	margin: 0px 5px 0px 0px;
+	padding: 10px 0px 2px 0px;
+	font: normal 12px tahoma;
+}
+#tab-1{
+	background: white;
+	color: black;
+}
+#pasteboximage{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 0;
+	width: 50%;
+	height: 100%;
+}
+#pasteboximage img{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	height: 100%;
+	width: 100%;
+}
+#sections{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#content-1{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#userinputs{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+	padding: 4% 10% 0px 10%;
+}
+#signinlekha{
+	display: -webkit-box;
+	-webkit-box-flex: 0;
+	padding: 20px 50px 0px 0px;
+}
+#loginform{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: horizontal;
+}
+#maildiv{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	margin: 0px 10px 0px 0px;
+}
+#emailinput{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+}
+#email{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	height: 35px;
+	background: rgba(1, 1, 1, 0.1);
+}
+#passdiv{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	margin: 0px 10px 0px 0px;
+}
+#passinput{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+}
+#pass{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	height: 35px;
+	background: rgba(1, 1, 1, 0.1);
+}
+#loginlekha{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+}
+#loginlekha input{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	background: rgb(56, 0, 60);
+	margin-top: 18px;
+	color: white;
+}
+#thator{
+	text-align: center;
+	padding: 30px 0px 30px 0px;
+}
+#orsignupwith{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	padding: 0px 20% 0px 20%;
+}
+.social{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	height: 35px;
+	margin: 0px 10px 0px 0px;
+	border-radius: 2px;
+}
+#facebookbutton{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+}
+#facebookbutton img{
+	width: 0px;
+	height: 0px;
+}
+#facebook{
+	background: #3B5998;
+	color: white;	
+}
+#twitter{
+	background: #00ACED;
+	color: white;	
+}
+#google{
+	background: #DD4B39;
+	color: white;	
+}
+#registertoplay{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	height: 15%;
+	padding: 20px;
+	margin: 1.5% 10% 0px 10%;
+	background: rgb(56, 0, 60);
+}
+#firstline{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+	color: #00FF87;
+	font: bold 15px tahoma;
+}
+#secondline{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+	
+}
+#secondlinelekha{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	color: white;
+	padding-right: 20px;
+}
+#signupbutton{
+	display: -webkit-box;
+	height: 45%;
+	-webkit-box-flex: 1;
+	width: 50%;
+	background: #00FF87;
+	border-radius: 2px;
+	font: normal 12px tahoma;
+}
+#signupbutton a{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+#morebragging{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+	height: 30%;
+	padding: 0px 10% 0px 10%;
+	margin-top: 1.5%;
+	font-family: tahoma;
+}
+#pickyoursquad{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: horizontal;
+	margin-right: 10px;
+	background: #F2F2F2;
+}
+#pyslekha{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	padding: 20px 10px 20px 10px;
+}
+#pyslekhah3{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	padding: 5px;
+}
+#pyslekhaspan{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	padding: 5px;
+}
+#pysimage{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	padding: 20px 10px 20px 10px;
+}
+#pysimage img{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+}
+#joinleagues{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+	margin-left: 10px;
+	background: #F2F2F2;
+}
+#jllekha{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	padding: 20px 10px 20px 10px;
+}
+#jlimage{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	padding: 10px;
+}
+#jlimage img{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+}
+#jllekhah3{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	padding: 5px;
+}
+#jllekhaspan{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	padding: 5px;
+}
+#latestfromthescout{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	margin: 1.5% 10% 0px 10%;
+}
+#scoutdiv{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: horizontal;
+	margin-top: 1.5%;
+	height: 40%;
+	padding: 10px;
+	background: #00FF87;
+}
+#scoutdiv img{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	height: 100%;
+	width: 50%;
+	margin-right: 15px;
+}
+#scoutlekha{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+}
+#scoutlekha h3{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+}
+#scoutlekha span{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+}
+
+#content-2{
+	display: none;
+	-webkit-box-orient: horizontal;
+	-webkit-box-flex: 1;
+	padding: 0px 10% 0px 10%;
+	margin: 3% 0px 0px 0px;
+}
+#lhs{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1.8;
+	margin-right: 10px;
+}
+#lhstop{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	height: 40%;
+	margin-bottom: 3%;
+}
+#prevgwnxt{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: justify;
+}
+#prev, #next{
+	width: 190px;
+	height: 35px;
+	background: rgba(1, 1, 1, 0.1);
+	border-radius: 3px;
+	font: normal 13px tahoma;
+	cursor: hand;
+}
+#youravghighest{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: justify;
+}
+#yourpts{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 0;
+	margin: 0px 10% 0px 10%;
+}
+#ptslekha, #actualpts{
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	font: normal 30px tahoma;
+	color: rgba(1, 1, 1, 0.8);
+}
+#actualpts{
+	margin-top: 10px;
+	color: rgb(233, 0, 82);
+}
+#avgptsgwrank, #highestptstransfers{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: justify;
+	
+}
+#avgpts, #highestpts, #gwrank, #transfers{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: justify;
+	margin: 0px 0px 10px 2%;
+	font: normal 12px tahoma;
+	background: rgba(1, 1, 1, 0.03);
+	padding: 10px;
+}
+#abovefield{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-orient: vertical;
+	-webkit-box-pack: center;
+	color: white;
+	background: rgb(56, 0, 60);
+}
+#twobuttonswrapper{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: center;
+	margin: 3% 0px 3% 0px;
+}
+#twobuttonswrapper button{
+	height: 30px;
+	width: 120px;
+	border: 1px solid white;
+	border-radius: 3px;
+	margin: 0px -4px 0px -4px;
+	cursor: hand;
+}
+#pitchview{
+	background: white;
+}
+#listview{
+	background: rgb(56, 0, 60);
+	color: white;
+}
+#field{
+	border: 0px solid blue;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	background: rgb(56, 0, 60);
+	background-image: url("field.png");
+	background-position: top;
+	background-size: 125% 100%;
+	padding: 0px 10% 0px 10%;
+}
+#gks, #defs, #mids, #fwds, #benches{
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
+	-webkit-box-pack: justify;
+	-webkit-box-flex: 1;
+	margin: 3% 0px 3% 0px;
+	
+}
+#fwds{
+	margin: 3% 10% 3% 10%;
+}
+#gks{
+	margin: 0px 28% 3% 28%;
+}
+.namepts1{
+	background: #02894E;
+	text-align: center;
+	font: normal 13px tahoma; 
+	color: white;
+}
+.namepts2{
+	background: #00FF87;
+	text-align: center;
+	font: normal 12px Premier League; 
+	border-bottom: 10px solid #02894E;
+}
+#field img, #bench img{
+	transform: scale(0.8);
+}
+#bench{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: center;
+	-webkit-box-orient: vertical;
+	background: rgba(1, 1, 1, 0.03);	
+}
+#benches{
+	display: -webkit-box;
+	-webkit-box-flex: 1;
+	-webkit-box-pack: justify;
+	padding: 0px 10% 0px 10%;
+}
+#rhs{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+	margin-left: 10px;
+}
+#userinfoside{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#content-3{
+	display: none;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#content-4{
+	display: none;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#content-5{
+	display: none;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+
+.wbox{
+	display: -webkit-box;
+}
+
+.wboxflexible{
+	-webkit-box-flex: 1;
+}
+
+.wboxvertical{
+	-webkit-box-orient: vertical;
+}
+
+.wboxcenter{
+	-webkit-box-pack: center;
+}
+
+.wboxjustify{
+	-webkit-box-pack: justify;
+}
+
+#youraccountbox{
+	padding: 0px 5%;
+	margin: 1% 0px;
+	font: normal 50px tahoma;
+	color: white;
+	height: 38%;
+	background: rgb(56, 0, 60);
+	background-image: url("youraccount.png");
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+
+#creatingnewaccount {
+	color: white;
+	font: normal 20px tahoma;
+	background: #E90052;
+	margin: 0px 5% 2% 5%;
+	padding: 15px 15px 15px 50px;
+}
+
+#tridetails {
+	width: 50px;
+	height: 50px;
+	background: rgb(56, 0, 60);
+	border-radius: 100%;
+	margin-bottom: 1%;
+}
+
+#hrbelowdetail {
+	border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+	margin: 1% 5%;
+}
+
+#yourpersonaldetails {
+	margin: 2% 20% 0px 20%;
+}
+
+.userinputs {
+	padding: 3% 0px;
+	margin: 0px 0px;
+}
+
+.inputwriting {
+	width: 200px;
+	font: bold 18px tahoma;
+}
+
+.required {
+	font: bold 12px tahoma;
+	color: #E90052;
+}
+
+.inputbox {
+	background: rgba(1, 1, 1, 0.1);
+	border-bottom: 1px solid rgba(1, 1, 1, 0.5);
+	height: 50px;
+	font: normal 20px tahoma;
+	color: rgba(1, 1, 1, 0.7);
+}
+
+.inputstatus {
+	visibility: hidden;
+	padding: 10px;
+	margin-left: 5%;
+	height: 30px;
+	width: 30px;
+	border-radius: 100%;
+}
+
+#borderpass {
+	height: 25px; 
+	width: 100%;
+	background: rgb(56, 0, 60);
+}
+
+select.inputbox {
+	margin-left: 10px;
+	background: white;
+}
+
+#hrbeforeregisterbutton{
+	border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+}
+
+#registerbutton {
+	border-radius: 2px;
+	background: rgb(56, 0, 60);
+	color: white;
+	height: 40px;
+	width: 300px;
+	text-align: center;
+}
+
+#hrbeforefooter{
+	border-bottom: 5px solid rgba(1, 1, 1, 0.2);
+	margin: 0px 0px 0px 0px;
+}
+
+#sponsors{
+	height: 15%;
+	margin: 0px 10% 1% 10%;
+	color: rgba(1, 1, 1, 0.7);
+	font-size: 9px;
+}
+
+#sponsors img{
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.sponsorclass{
+	margin: 0px 2% 0px 2%;
+}
+
+#mainfooter{
+	color: white;
+	height: 58%;
+	background: rgb(56, 0, 60);
+	background-image: url("footer-right.svg"), url("footer-left.svg");
+	background-repeat: no-repeat, no-repeat;
+	background-position: right top, left bottom;
+}
+
+#mainfooter a, #mainfooter ul, #mainfooter li{
+	margin: 10px 0px 10px 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style: none;
+	color: white;
+	font-size: 11px;
+}
+
+#mainfooter a:hover{
+	text-decoration: underline;
+}
+
+#mainfootercontents{
+	margin: 5% 10% 10% 10%;
+}
+
+#absolutebottom{
+	color: black;
+	font-size: 12px;
+	padding: 1% 0px 1% 10%;
+}
+
+#absolutebottom a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	margin: 0px;
+}

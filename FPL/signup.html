@@ -1,0 +1,287 @@
+<html>
+<head>
+	<script type = "text/javascript" src = "jquery.js"></script>
+	<script type = "text/javascript" src = "signup.js"></script>
+	<link rel = "stylesheet" href = "signup.css" />
+</head>
+<body>
+	<div id = "bigwrapper">
+		<div id = "fixedstuffs">
+			<header id = "header">
+				<div id = "logoplace">
+					<img id = "logoimage" src = "logo2.png" />
+				</div>
+				<div id = "besidelogo">
+					<div id = "clubsites">
+						<div id = "clubsitescontentwrapper">
+							<div id = "clubsiteslekha">
+								Club sites
+							</div>
+							<div id = "clubsiteslinks">
+								<a href = "http://www.afcb.co.uk"><img src = "Pictures/bournemouth.png" /></a>
+								<a href = "http://www.arsenal.com"><img src = "Pictures/arsenal.png" /></a>
+								<a href = "http://www.burnleyfootballclub.com"><img src = "Pictures/burnley.png" /></a>
+								<a href = "https://www.chelseafc.com"><img src = "Pictures/chelsea.png" /></a>
+								<a href = "http://www.cpfc.co.uk"><img src = "Pictures/crystalpalace.png" /></a>
+								
+								<a href = "http://www.evertonfc.com"><img src = "Pictures/everton.png" /></a>
+								<a href = "http://www.hullcitytigers.com"><img src = "Pictures/hullcity.png" /></a>
+								<a href = "http://www.lcfc.com"><img src = "Pictures/leicestercity.png" /></a>
+								<a href = "http://www.liverpoolfc.com"><img src = "Pictures/liverpool.png" /></a>
+								<a href = "https://www.mancity.com"><img src = "Pictures/mancity.png" /></a>
+								
+								<a href = "http://www.manutd.com"><img src = "Pictures/manutd.png" /></a>
+								<a href = "http://www.mfc.co.uk"><img src = "Pictures/midlesbrough.png" /></a>
+								<a href = "https://southamptonfc.com"><img src = "Pictures/southampton.png" /></a>
+								<a href = "http://www.stokecityfc.com"><img src = "Pictures/stokecity.png" /></a>
+								<a href = "https://www.safc.com"><img src = "Pictures/sunderland.png" /></a>
+								
+								<a href = "http://www.swanseacity.net"><img src = "Pictures/swansea.png" /></a>
+								<a href = "http://www.tottenhamhotspur.com"><img src = "Pictures/tottenham.png"/></a>
+								<a href = "https://www.watfordfc.com"><img src = "Pictures/watford.png" /></a>
+								<a href = "http://www.wba.co.uk"><img src = "Pictures/westbrom.png" /></a>
+								<a href = "http://www.whufc.com"><img src = "Pictures/westham.png" /></a>
+							</div>	
+						</div>
+					</div>
+					<div id = "navigationdiv">
+						<nav id = "navigation">
+							<canvas id = "navcanvas">
+								
+							</canvas>
+							<div id = "navybluemenu">
+								<ul>
+									<a href = ""><li class = "nav_ul" id = "premierleagueli">Premier League</li></a>
+									<a href = ""><li class = "nav_ul" id = "fantasyli" >Fantasy</li></a>
+									<a href = ""><li class = "nav_ul" id = "statsli" >Stats</li></a>
+									<a href = ""><li class = "nav_ul" id = "videosli" >Videos</li></a>
+									<a href = ""><li class = "nav_ul" id = "communitiesli" >Communities</li></a>
+									<a href = ""><li class = "nav_ul" id = "moreli" >More</li></a>
+								</ul>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</header>
+		</div>
+		<div class = "wbox wboxvertical wboxcenter" id = "youraccountbox">
+			Your Account
+		</div>
+		<div class = "wbox" id = "creatingnewaccount">
+			Creating a new account
+		</div>
+		<div class = "wbox wboxcenter" id = "triwrapper">
+			<div class = "wbox wboxcenter" id = "tridetails">
+				<div class = "wbox wboxflexible wboxvertical" id = "firstdetail">
+					<img class = "wbox wboxflexible" src = "step1.svg" />
+				</div>
+			</div>
+		</div>
+		<hr id = "hrbelowdetail">
+		<div class = "wbox wboxvertical wboxflexible" id = "yourpersonaldetails">
+			<h2>Your Personal Details</h2><br /><br /><br />
+			<div class = "wbox wboxflexible userinputs">
+				<span class = "wbox inputwriting">Name<br />
+					<span class = "required">*Required</span>
+				</span>
+				<input class = "wbox wboxflexible inputbox" id = "input1" type = "text" />
+				<div class = "wbox inputstatus" id = "status1">
+					
+				</div>
+			</div>
+			<div class = "wbox wboxflexible userinputs">
+				<span class = "wbox inputwriting">Username<br />
+					<span class = "required">*Required</span>
+				</span>
+				<input class = "wbox wboxflexible inputbox" id = "input2" type = "text" />
+				<div class = "wbox inputstatus" id = "status2">
+					
+				</div>
+			</div>
+			<div class = "wbox wboxflexible userinputs">
+				<span class = "wbox inputwriting">Email Address<br />
+					<span class = "required">*Required</span>
+				</span>
+				<input class = "wbox wboxflexible inputbox" id = "input3" type = "email" />
+				<div class = "wbox inputstatus" id = "status3">
+					
+				</div>
+			</div>
+			<div class = "wbox wboxflexible userinputs">
+				<span class = "wbox inputwriting">Password<br />
+					<span class = "required">*Required</span>
+				</span>
+				<div class = "wbox wboxflexible wboxvertical">
+					<input class = "wbox inputbox"  id = "input4" type = "password" />
+					<div class = "wbox" id = "borderpass"></div>
+				</div>
+				<div class = "wbox inputstatus" id = "status4">
+					
+				</div>
+			</div>
+			<div class = "wbox wboxflexible userinputs">
+				<span class = "wbox inputwriting">Date of Birth<br />
+					<span class = "required">*Required</span>
+				</span>
+				<select class = "wbox wboxflexible inputbox">
+					<option value = "day">Day</option>
+				</select>
+				<select class = "wbox wboxflexible inputbox">
+					<option value = "month">Month</option>
+				</select>
+				<select class = "wbox wboxflexible inputbox">
+					<option value = "year">Year</option>
+				</select>
+				<div class = "wbox inputstatus">
+					
+				</div>
+			</div>
+			<div class = "wbox wboxflexible userinputs">
+				<span class = "wbox inputwriting">Country<br />
+					<span class = "required">*Required</span>
+				</span>
+				<input class = "wbox wboxflexible inputbox" id = "input6" type = "text" />
+				<div class = "wbox inputstatus" id = "status6">
+					
+				</div>
+			</div>
+			<div class = "wbox wboxflexible userinputs">
+				<span class = "wbox inputwriting">Club<br />
+					<span class = "required">*Required</span>
+				</span>
+				<input class = "wbox wboxflexible inputbox" id = "input7" type = "text" />
+				<div class = "wbox inputstatus" id = "status7">
+					
+				</div>
+			</div>
+			<hr id = "hrbeforeregisterbutton">
+			<div class = "wbox wboxflexible wboxcenter userinputs">
+				<input type = "submit" value = "Register" id = "registerbutton"/>
+			</div>
+		</div>
+		<br/><hr id = "hrbeforefooter"><br/>
+		<footer class = "wbox wboxvertical" id = "bottomstuffs">
+			<div class = "wbox wboxcenter" id = "sponsors">
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "easports.png" /><br/>
+					<span class = "wbox wboxcenter">Lead Partner</span>
+				</div>
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "barclays.png" /><br/>
+					<span class = "wbox wboxcenter">Official Bank</span>
+				</div>
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "cadbury.png" /><br/>
+					<span class = "wbox wboxcenter">Official Snack Partner</span>
+				</div>
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "carling.png" /><br/>
+					<span class = "wbox wboxcenter">Official Beer</span>
+				</div>
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "nike.png" /><br/>
+					<span class = "wbox wboxcenter">Official Ball</span>
+				</div>
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "tagheuer.png" /><br/>
+					<span class = "wbox wboxcenter">Official Timekeeper</span>
+				</div>
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "sportingid.png" /><br/>
+					<span class = "wbox wboxcenter">Official Licensee</span>
+				</div>
+				<div class = "wbox wboxflexible wboxvertical sponsorclass">
+					<img class = "wbox wboxflexible" src = "topps.png" /><br/>
+					<span class = "wbox wboxcenter">Official Licensee</span>
+				</div>
+			</div>
+			<div class = "wbox" id = "mainfooter">
+				<div class = "wbox wboxflexible wboxcenter" id = "mainfootercontents">
+					<div class = "wbox wboxvertical wboxflexible">
+						<h3>Premier League</h3>
+						<ul>
+							<a href = "#"><li>Home</li></a>
+							<a href = "#"><li>Football Fixtures</li></a>
+							<a href = "#"><li>Football Tables</li></a>
+							<a href = "#"><li>Football Results</li></a>
+							<a href = "#"><li>Broadcast</li></a>
+							<a href = "#"><li>Tickets</li></a>
+							<a href = "#"><li>Clubs</li></a>
+							<a href = "#"><li>Results</li></a>
+						</ul>
+					</div>
+					<div class = "wbox wboxvertical wboxflexible">
+						<h3>Fantasy</h3>
+						<ul>
+							<a href = "#"><li>Home</li></a>
+							<a href = "#"><li>My Team</li></a>
+							<a href = "#"><li>Transfers</li></a>
+							<a href = "#"><li>Leagues</li></a>
+							<a href = "#"><li>Fixtures</li></a>
+							<a href = "#"><li>Statistics</li></a>
+							<a href = "#"><li>The Scout</li></a>
+						</ul>
+					</div>
+					<div class = "wbox wboxvertical wboxflexible">
+						<h3>Stats</h3>
+						<ul>
+							<a href = "#"><li>Dashboard</li></a>
+							<a href = "#"><li>Player Stats</li></a>
+							<a href = "#"><li>Club Stats</li></a>
+							<a href = "#"><li>All Time Stats</li></a>
+							<a href = "#"><li>Head to Head</li></a>
+							<a href = "#"><li>Awards</li></a>
+						</ul>
+					</div>
+					<div class = "wbox wboxvertical wboxflexible">
+						<h3>Video</h3>
+						<ul>
+							<a href = "#"><li>Latest Videos</li></a>
+						</ul>
+					</div>
+					<div class = "wbox wboxvertical wboxflexible">
+						<h3>Communities</h3>
+						<ul>
+							<a href = "#"><li>Latest</li></a>
+							<a href = "#"><li>Programmes</li></a>
+							<a href = "#"><li>PL Kick Heroes</li></a>
+							<a href = "#"><li>Strategy</li></a>
+							<a href = "#"><li>Premier League Primary Stats</li></a>
+						</ul>
+					</div>
+					<div class = "wbox wboxvertical wboxflexible">
+						<h3>More</h3>
+						<ul>
+							<a href = "#"><li>Asia Trophy</li></a>
+							<a href = "#"><li>Photos</li></a>
+							<a href = "#"><li>Transfers</li></a>
+							<a href = "#"><li>Partners</li></a>
+							<a href = "#"><li>Nike Ball Hub</li></a>
+							<a href = "#"><li>About</li></a>
+						</ul>
+					</div>
+					<div class = "wbox wboxvertical wboxflexible">
+						<h3>Social</h3>
+						<ul>
+							<a href = "#"><li>PL on Facebook</li></a>
+							<a href = "#"><li>PL on Twitter</li></a>
+							<a href = "#"><li>FPL on Twitter</li></a>
+							<a href = "#"><li>PL Communities on Twitter</li></a>
+							<a href = "#"><li>PL Youth on Twitter</li></a>
+							<a href = "#"><li>PL on Instagram</li></a>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class = "wbox wboxvertical wboxcenter" id = "absolutebottom">
+				<a href = "#" id = "firstlinkbottom">Premier League 2017</a> |
+				<a href = "#">Modern Slavery Statements</a> |
+				<a href = "#">Terms and Conditions</a> |
+				<a href = "#">Privacy Policy</a> |
+				<a href = "#">Cookie Policy</a> |
+				<a href = "#">Back to Top</a>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
